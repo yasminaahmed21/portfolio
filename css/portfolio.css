@@ -1,0 +1,373 @@
+/*Testimonials*/
+.Testimonials{
+    margin-top: 100px;
+}
+
+/* start pricing */
+
+.pricing{
+    padding: 120px 0 100px 0 ;
+    justify-content: center;
+    display: flex;
+}
+.pricing .container{
+    text-align: center;
+}
+
+/* start pricing header */
+.pricing .pricing_head .pricing_header{
+    margin: 10px 0 10px 0;
+}
+.pricing .pricing_head .pricing_header .imag{
+
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.pricing .pricing_head .pricing_header .hh{
+    position: relative;
+}
+.pricing .pricing_head .pricing_header .hh h5{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 4px 0 0 0;
+    color: #000000;
+    letter-spacing: 1.5px;  
+    line-height: 0px;
+}
+
+
+
+
+.pricing .pricing_head h2{
+    color: #000000;
+    font-family: "Bai Jamjuree", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2em;
+}
+
+@media (max-width:768px){
+    .pricing .pricing_head h2{
+        font-size: 24px;
+    }
+}
+
+
+
+.pricing .pricing_head .paragraph{
+    padding: 0 25% 0 25%;
+    color: #797979;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5em;
+}
+@media (max-width:768px){
+    .pricing .pricing_head .paragraph{
+        padding: 0 ;
+    }
+}
+@media (max-width:1024px){
+    .pricing .pricing_head .paragraph{
+        padding: 0 10% 0 10% ;
+    }
+}
+
+/* end pricing header */
+
+
+/* start pricing body */
+
+.pricing .pricing_body{
+    display: flex;
+    background-color: #F3F2EF;
+    margin-top: 40px;
+    padding: 40px 0 40px 0;
+}
+@media (max-width:768px){
+    .pricing .container{
+        justify-content: center;
+        align-items: center ;
+    }
+    .pricing .pricing_body{
+        max-width: 390px;
+        justify-content: center;
+        text-align: center;
+    }
+}
+.pricing .pricing_body .plan{
+    width: 33.33%;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+
+}
+@media (max-width:768px){
+    .pricing .container .media .pricing_body{
+       display: inline-block;
+    }
+    .pricing .pricing_body .plan{
+        width: 100%;
+    }
+}
+
+
+.pricing .pricing_body .plan h3{
+    color: #000000;
+    font-family: "Bai Jamjuree", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 1.2em;
+
+}
+
+.pricing .pricing_body .plan p{
+    color: #797979;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+.pricing .pricing_body .plan .plan-head{
+    border-bottom: solid 1px #C7C7C7;
+}
+
+
+
+
+
+
+.pricing .pricing_body .plan .plan-list{
+    margin: 0;
+    padding-top: 15px ;
+
+}
+.pricing .pricing_body .plan .plan-list ul{
+    list-style: none;
+}
+.pricing .pricing_body .plan .plan-list ul li{
+    display: flex;
+    align-items: center;
+    padding-bottom: 12px;
+}
+.pricing .pricing_body .plan .plan-list ul li i{
+    color: #FF6400;
+}
+.pricing .pricing_body .plan .plan-list ul li .parg-plan-list{
+    padding-left: 8px;
+    color:#797979;
+    font-size: 16px;
+}
+@media (max-width:992px ){
+    .pricing .pricing_body .plan .plan-list ul li .parg-plan-list{
+        font-size: 12px;
+        padding-left: 5px;
+    }
+}
+@media (max-width:768px ){
+    .pricing .pricing_body .plan .plan-list ul li .parg-plan-list{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+.pricing .pricing_body .plan .pricing-per-month{
+    text-align: center;
+}
+.pricing .pricing_body .plan .pricing-per-month .pric{
+    font-family: "DM Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #000000;
+}
+.pricing .pricing_body .plan .pricing-per-month .pric-advenced{
+    font-family: "DM Sans", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2em;
+    color: #FF6400 ;
+}
+
+.pricing .pricing_body .plan .pricing-per-month .long{
+    color: #797979;
+    font-family: "Heebo", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+
+
+
+
+
+
+.pricing .pricing_body .plan .get-start{
+    margin: 35px;
+}
+.pricing .pricing_body .plan .get-start a{
+    padding: 18px 30px;
+    font-family: "Bai Jamjuree", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    background-color: #FF6400;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    
+}
+
+@media(max-width:992px){
+    .pricing .pricing_body .plan .get-start{
+        margin: 25px 0;
+        width: 100%;
+    }
+    .pricing .pricing_body .plan .get-start a{
+        padding: 15px 25px;
+    }
+
+}
+.pricing .pricing_body .plan .get-start span{
+    margin-left: 10px;
+}
+
+.pricing .pricing_body .plan .get-start a:hover{
+    background-color: #000000;
+}
+.pricing .pricing_body .plan .get-start .link-adv:hover{
+    background-color: white;
+    color: #000000;
+}
+
+
+
+
+
+
+/* start pricing body */
+
+
+
+/* end pricing */
+
+/* start contact me */
+
+.contact_me{
+text-align: center;
+margin: 60px ;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+
+
+}
+.contact_me .container {
+    padding: 100px 20px 100px 20px;
+}
+
+
+@media (max-width:768px){
+    .contact_me .container {
+            max-width: 390px;;
+        }
+    }
+
+
+
+.contact_me .container .head_contact_me{
+    margin: 0 40px;
+}
+.contact_me .container .head_contact_me h2{
+    color: white;
+    font-family: "Bai Jamjuree", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 1.2em;
+}
+@media (max-width:768px){
+.contact_me .container .head_contact_me h2{
+        font-size: 24px;
+    }
+}
+
+
+.contact_me .container .paragraph_contact_me{    
+    padding: 0 25% 0 25%;
+    margin: 20px 0;
+    color: #9B9B9B;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5em;
+}
+@media (max-width:768px){
+    .contact_me .container .paragraph_contact_me{
+        padding: 0 0 0 0 ;
+    }
+}
+@media (min-width:769px) and (max-width:1024px){
+    .contact_me .container .paragraph_contact_me{
+        padding: 0 10% 0 10% ;
+    }
+}
+
+
+
+
+
+
+.contact_me .container .button_contact_me{
+    margin: 35px;
+}
+.contact_me .container .button_contact_me a{
+    padding: 18px 30px;
+    font-family: "Bai Jamjuree", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1em;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    background-color: #FF6400;
+    text-decoration: none;
+    transition: background-color 0.5s;
+    
+}
+
+@media(max-width:992px){
+    .contact_me .container .button_contact_me{
+        margin: 25px 0;
+        width: 100%;
+    }
+    .contact_me .container .button_contact_me a{
+        padding: 15px 25px;
+    }
+
+}
+.contact_me .container .button_contact_me span{
+    margin-left: 10px;
+}
+
+.contact_me .container .button_contact_me a:hover{
+    background-color:white;
+    color: #000000;
+}
+
+/* end contact me */
